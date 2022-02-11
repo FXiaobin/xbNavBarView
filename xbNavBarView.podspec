@@ -15,8 +15,10 @@ Pod::Spec.new do |spec|
   #  summary should be tweet-length, and the description more in depth.
   #
 
+  spec.swift_version = "5.0"
+
   spec.name         = "xbNavBarView"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "xbNavBarView"
 
   # This description is used to generate tags and improve search results.
@@ -53,7 +55,7 @@ xbNavBarView，自定义导航条视图
   #  profile URL.
   #
 
-  spec.author             = { "xiaobin.fan" => "xiaobin.fan@ecidh.com" }
+  spec.author             = { "FXiaobin" => "527256662@qq.com" }
   # Or just: spec.author    = "xiaobin.fan"
   # spec.authors            = { "xiaobin.fan" => "xiaobin.fan@ecidh.com" }
   # spec.social_media_url   = "https://twitter.com/xiaobin.fan"
