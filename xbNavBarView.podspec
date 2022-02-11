@@ -18,8 +18,8 @@ Pod::Spec.new do |spec|
   spec.swift_version = "5.0"
 
   spec.name         = "xbNavBarView"
-  spec.version      = "0.0.2"
-  spec.summary      = "xbNavBarView"
+  spec.version      = "0.0.3"
+  spec.summary      = "xbNavBarView."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -27,7 +27,8 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
-xbNavBarView，自定义导航条视图
+自定义导航条视图,xbNavBarView
+
                    DESC
 
   spec.homepage     = "https://github.com/FXiaobin/xbNavBarView"
@@ -135,6 +136,6 @@ xbNavBarView，自定义导航条视图
   # spec.requires_arc = true
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  spec.dependency "SnapKit"
+   spec.dependency "SnapKit"
 
 end
