@@ -38,7 +38,7 @@ class xbNavBarView: UIImageView {
         }
     }
    
-    convenience init(bgImage: String?, title: String?, backBtn: UIButton?, rightItems: [UIButton], rightSpace: CGFloat, itemAction: xbNavBarViewItemActionBlock?) {
+    public convenience init(bgImage: String?, title: String?, backBtn: UIButton?, rightItems: [UIButton], rightSpace: CGFloat, itemAction: xbNavBarViewItemActionBlock?) {
         self.init()
         
         let navBarH: CGFloat = getSafeAreaInsetsTopHeight() + 44.0
