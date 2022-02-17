@@ -3,7 +3,7 @@ Pod::Spec.new do |spec|
 
 
   spec.name         = "xbNavBarView"
-  spec.version      = "0.0.5"
+  spec.version      = "0.0.6"
   spec.summary      = "xbNavBarView."
   spec.description  = "自定义导航条视图，xbNavBarView"
 

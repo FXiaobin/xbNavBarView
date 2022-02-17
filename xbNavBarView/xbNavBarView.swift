@@ -8,9 +8,9 @@
 import UIKit
 import SnapKit
 
-class xbNavBarView: UIImageView {
+public class xbNavBarView: UIImageView {
 
-    typealias xbNavBarViewItemActionBlock = ((UIButton, Int) -> Void)
+    public typealias xbNavBarViewItemActionBlock = ((UIButton, Int) -> Void)
     fileprivate var backActionBlcok: xbNavBarViewItemActionBlock?
    
     /** 安全区域 - 顶部高度*/
